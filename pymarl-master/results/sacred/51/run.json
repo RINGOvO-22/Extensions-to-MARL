@@ -1,0 +1,96 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "D:\\a_Tem\\WorkPlace\\FYP\\COMP390_JunhaoDai\\pymarl-master\\src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.19.5",
+      "PyYAML==6.0.1",
+      "sacred==0.8.2",
+      "torch==1.10.2"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources\\main_d44c2173856565ac2d56edfbd800a5f0.py"
+      ],
+      [
+        "run.py",
+        "_sources\\run_d6cbad73a8b9643cb23858a23bf8eabd.py"
+      ],
+      [
+        "utils\\__init__.py",
+        "_sources\\__init___d41d8cd98f00b204e9800998ecf8427e.py"
+      ],
+      [
+        "utils\\logging.py",
+        "_sources\\logging_8f1e6351d6b9190f4bb7b41f9a1c40b8.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"C:\\Users\\ddd31\\.conda\\envs\\fyp\\lib\\site-packages\\sacred\\config\\captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"pymarl-master/src/main.py\", line 51, in my_main\n    run(_run, config, _log)\n",
+    "  File \"D:\\a_Tem\\WorkPlace\\FYP\\COMP390_JunhaoDai\\pymarl-master\\src\\run.py\", line 21, in run\n    _config = args_sanity_check(_config, _log)\n",
+    "NameError: name 'args_sanity_check' is not defined\n"
+  ],
+  "heartbeat": "2024-05-09T14:58:40.442839",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "gpus": {
+      "driver_version": "551.78",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 2060",
+          "persistence_mode": false,
+          "total_memory": 6144
+        }
+      ]
+    },
+    "hostname": "DESKTOP-K279E24",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.19041-SP0"
+    ],
+    "python_version": "3.6.13"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2024-05-09T14:58:40.414536",
+  "status": "FAILED",
+  "stop_time": "2024-05-09T14:58:40.446743"
+}
